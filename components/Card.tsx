@@ -8,7 +8,7 @@ type Props = {
 
 const Card = ({ title, subtitle, imgUrl }: Props) => {
   return (
-    <div className="h-80">
+    <div className="h-[500px] lg:h-80">
       <div className="relative h-full">
         <Thumb imgUrl={imgUrl} />
         <div className="absolute w-full bottom-0 px-4 py-2 rounded-b-xl bg-zinc-800">
