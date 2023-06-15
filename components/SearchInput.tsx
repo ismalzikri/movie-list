@@ -26,6 +26,7 @@ const SearchInput = ({ setQuery }: Props) => {
         placeholder="Search Movie"
         value={text}
         onChange={handleInput}
+        data-testid="search-input"
       />
       <div className="absolute right-4 top-8">
         <Image width="30" height="32" src="/tmdb-logo.svg" alt="tmdb-logo" />
