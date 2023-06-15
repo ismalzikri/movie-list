@@ -35,7 +35,7 @@ const Home: NextPage = () => {
       <Header setQuery={setQuery} />
       {!query && data && data.pages && (
         <Hero
-          imgUrl="https://image.tmdb.org/t/p/w880_and_h600_multi_faces_filter(duotone,00192f,00baff)/6LfVuZBiOOCtqch5Ukspjb9y0EB.jpg"
+          imgUrl="https://image.tmdb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,00192f,00baff)/oE6bhqqVFyIECtBzqIuvh6JdaB5.jpg"
           title="Welcome."
           text="Millions of movies, TV shows and people to discover. Explore now!"
         />
