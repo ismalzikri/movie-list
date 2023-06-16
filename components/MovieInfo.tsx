@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 // Helpers
-import { calcTime, convertMoney } from "@utils";
+import { calcTime, convertMoney } from "../utils/helpers";
 
 // Components
 import Pill from "@components/Pill";
@@ -10,7 +10,7 @@ import Thumb from "@components/Thumb";
 // Types
 import { Crew } from "@types";
 
-type Props = {
+export type Props = {
   thumbUrl: string;
   backgroundImgUrl: string;
   title: string;
